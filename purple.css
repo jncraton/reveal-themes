@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap');
+
+:root {
+  --r-background-color: #ffffff;
+  --r-main-font: 'Source Serif 4', serif;
+  --r-main-font-size: 40px;
+  --r-main-color: #333333;
+  --r-heading-font: 'Montserrat', sans-serif;
+  --r-heading-color: #522d72;
+  --r-heading-text-transform: none;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: 700;
+  --r-link-color: #522d72;
+  --r-link-color-hover: #6a3d91;
+  --r-selection-background-color: #522d72;
+  --r-selection-color: #ffffff;
+}
+
+
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: var(--r-heading-color);
+  font-family: var(--r-heading-font);
+  text-transform: var(--r-heading-text-transform);
+  font-weight: var(--r-heading-font-weight);
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid #eaaa00;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.reveal strong {
+  color: #522d72;
+}
+
+.reveal b {
+  color: #522d72;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+}
+
+.reveal ul li::marker {
+  color: #522d72;
+}
+
+.reveal ol li::marker {
+  color: #522d72;
+  font-weight: bold;
+}
+
+.reveal blockquote {
+  border-left: 5px solid #522d72;
+  background: #f8f8f8;
+  box-shadow: none;
+  padding: 20px;
+  font-style: italic;
+}
+
+.reveal .controls {
+  color: #522d72;
+}
+
+.reveal .progress {
+  color: #522d72;
+}
+
+.reveal .slide-number {
+  color: #522d72;
+  background-color: transparent;
+}
+
+.reveal section figure {
+  text-align: center;
+}
+
+/* Pandoc specific adjustments */
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+/* Title slide override */
+.reveal a {
+  color: var(--r-link-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.reveal a:hover {
+  color: var(--r-link-color-hover);
+  border-bottom: 1px solid var(--r-link-color-hover);
+}
+
+.reveal code {
+  font-family: monospace;
+  background: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.reveal pre code {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.reveal .slides section.title-slide {
+  background-color: #522d72;
+  color: #ffffff;
+}
+
+.reveal .slides section.title-slide h1,
+.reveal .slides section.title-slide h2,
+.reveal .slides section.title-slide .author,
+.reveal .slides section.title-slide .date {
+  color: #ffffff;
+}
