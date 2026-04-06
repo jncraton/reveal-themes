@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap');
 
 :root {
-  --r-background-color: #ffffff;
+  --r-background-color: #fff;
   --r-main-font: 'Source Serif 4', serif;
   --r-main-font-size: 40px;
   --r-main-color: #333333;
@@ -13,7 +13,7 @@
   --r-link-color: #522d72;
   --r-link-color-hover: #6a3d91;
   --r-selection-background-color: #522d72;
-  --r-selection-color: #ffffff;
+  --r-selection-color: #fff;
 }
 
 
@@ -120,12 +120,12 @@
 
 .reveal .slides section.title-slide {
   background-color: var(--r-heading-color);
-  color: #ffffff;
+  color: #fff;
 }
 
 .reveal .slides section.title-slide h1,
 .reveal .slides section.title-slide h2,
 .reveal .slides section.title-slide .author,
 .reveal .slides section.title-slide .date {
-  color: #ffffff;
+  color: #fff;
 }
