@@ -119,7 +119,7 @@
 }
 
 .reveal .slides section.title-slide {
-  background-color: #522d72;
+  background-color: var(--r-heading-color);
   color: #ffffff;
 }
 
