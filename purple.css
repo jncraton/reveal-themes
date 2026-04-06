@@ -41,11 +41,11 @@
 }
 
 .reveal strong {
-  color: #522d72;
+  color: var(--r-heading-color);
 }
 
 .reveal b {
-  color: #522d72;
+  color: var(--r-heading-color);
 }
 
 .reveal h2 {
@@ -53,16 +53,16 @@
 }
 
 .reveal ul li::marker {
-  color: #522d72;
+  color: var(--r-heading-color);
 }
 
 .reveal ol li::marker {
-  color: #522d72;
+  color: var(--r-heading-color);
   font-weight: bold;
 }
 
 .reveal blockquote {
-  border-left: 5px solid #522d72;
+  border-left: 5px solid var(--r-heading-color);
   background: #f8f8f8;
   box-shadow: none;
   padding: 20px;
@@ -70,15 +70,15 @@
 }
 
 .reveal .controls {
-  color: #522d72;
+  color: var(--r-heading-color);
 }
 
 .reveal .progress {
-  color: #522d72;
+  color: var(--r-heading-color);
 }
 
 .reveal .slide-number {
-  color: #522d72;
+  color: var(--r-heading-color);
   background-color: transparent;
 }
 
