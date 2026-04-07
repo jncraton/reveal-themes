@@ -1,4 +1,4 @@
-all: reveal.js purple.min.css demo.html
+all: reveal.js purple.min.css orange.min.css demo.html
 
 %.min.css: %.css
 	npx minify@8.0.4 $< > $@
