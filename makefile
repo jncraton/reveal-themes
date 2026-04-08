@@ -1,7 +1,7 @@
 all: reveal.js purple.min.css orange.min.css demo.html
 
 %.min.css: %.css
-	npx minify@8.0.4 $< > $@
+	npx --yes minify@8.0.4 $< > $@
 
 %.html: %.md reveal.js orange.css
 	pandoc -t revealjs -V reveal.js -c orange.css -s "$<" -o $@
