@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&display=swap');
+
+:root {
+  --r-background-color: #fff;
+  --r-main-font: 'Source Serif 4', serif;
+  --r-main-font-size: 40px;
+  --r-main-color: #111;
+  --r-heading-font: 'Montserrat', sans-serif;
+  --r-heading-color: #8c2131;
+  --r-heading-text-transform: none;
+  --r-heading-text-shadow: none;
+  --r-heading-font-weight: 700;
+  --r-link-color: #8c2131;
+  --r-link-color-hover: #c2002f;
+  --r-selection-background-color: #8c2131;
+  --r-selection-color: #fff;
+
+  --classic-maroon: #8c2131;
+  --classic-gold: #f3cd00;
+  --bright-red: #c2002f;
+  --neutral-light: #f2f2f2;
+  --neutral-dark: #111;
+}
+
+.reveal .slides section {
+  text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  color: var(--r-heading-color);
+  font-family: var(--r-heading-font);
+  text-transform: var(--r-heading-text-transform);
+  font-weight: var(--r-heading-font-weight);
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  border-bottom: 3px solid var(--classic-gold);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.reveal strong,
+.reveal b {
+  color: var(--classic-maroon);
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+}
+
+.reveal ul li::marker {
+  color: var(--classic-maroon);
+}
+
+.reveal ol li::marker {
+  color: var(--bright-red);
+  font-weight: bold;
+}
+
+.reveal blockquote {
+  border-left: 5px solid var(--classic-maroon);
+  background: var(--neutral-light);
+  box-shadow: none;
+  padding: 20px;
+  font-style: italic;
+}
+
+.reveal .controls {
+  color: var(--classic-maroon);
+}
+
+.reveal .progress {
+  color: var(--classic-gold);
+}
+
+.reveal .slide-number {
+  color: var(--classic-maroon);
+  background-color: transparent;
+}
+
+.reveal section figure {
+  text-align: center;
+}
+
+/* Pandoc-specific adjustments */
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+/* Links */
+.reveal a {
+  color: var(--r-link-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.reveal a:hover {
+  color: var(--r-link-color-hover);
+  border-bottom-color: var(--r-link-color-hover);
+}
+
+/* Inline code */
+.reveal code {
+  font-family: monospace;
+  background: var(--neutral-light);
+  color: var(--neutral-dark);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.reveal pre code {
+  padding: 15px;
+  border-radius: 5px;
+  overflow: scroll !important;
+}
+
+/* Title slide */
+.reveal .slides section.title-slide {
+  background-color: var(--classic-maroon);
+  color: #fff;
+}
+
+.reveal .slides section.title-slide h1,
+.reveal .slides section.title-slide h2,
+.reveal .slides section.title-slide .author,
+.reveal .slides section.title-slide .date {
+  color: #fff;
+}
+
+/* Optional color utility classes */
+.maroon {
+  color: var(--classic-maroon);
+}
+
+.gold {
+  color: var(--classic-gold);
+}
+
+.red {
+  color: var(--bright-red);
+}
+
+.maroon-bg {
+  background-color: var(--classic-maroon);
+  color: #fff;
+}
+
+.gold-bg {
+  background-color: var(--classic-gold);
+  color: var(--neutral-dark);
+}
+
+.red-bg {
+  background-color: var(--bright-red);
+  color: #fff;
+}
+
+.neutral-gradient {
+  background: linear-gradient(
+    to right,
+    #111 0%,
+    #555 20%,
+    #999 45%,
+    #ccc 70%,
+    #f2f2f2 100%
+  );
+}
