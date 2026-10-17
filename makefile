@@ -21,5 +21,8 @@ maroon.css: purple.css
 reveal.js:
 	git clone --branch 5.2.1 --depth=1 https://github.com/hakimel/reveal.js.git
 
+format:
+	npx --yes prettier --write *.css
+
 clean:
 	rm -rf reveal.js *.min.css *.html orange.css maroon.css
